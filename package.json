@@ -1,22 +1,23 @@
 {
-  "name": "insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "name": "insight-vtc-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the vertcoin network and build your own services with it.",
   "version": "5.0.0-beta.28",
-  "repository": "git://github.com/bitpay/insight-ui.git",
+  "repository": "git://github.com/Cubey2019/insight-vtc-ui.git",
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/Cubey2019/insight-vtc-ui/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-ui",
+  "homepage": "https://github.com/Cubey2019/insight-vtc-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
-    "bitcore",
+    "vertcoin",
+    "vertcore",
+    "vtc",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node",
+  "vertcoreNode": "vertcore-node",
   "insightConfig": {
     "apiPrefix": "api",
     "routePrefix": ""
