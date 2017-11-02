@@ -8,7 +8,7 @@ var pkg = require('../package.json');
 
 var InsightUI = function(options) {
   BaseService.call(this, options);
-  this.apiPrefix = options.apiPrefix || 'api';
+  this.apiPrefix = options.apiPrefix || 'insight-vtc-api';
   this.routePrefix = options.routePrefix || '';
 };
 

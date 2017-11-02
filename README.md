@@ -41,7 +41,7 @@ By default, the `insightConfig` in `package.json` is:
 
 ```json
   "insightConfig": {
-    "apiPrefix": "insight-api",
+    "apiPrefix": "insight-vtc-api",
     "routePrefix": "insight"
   }
 ```

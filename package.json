@@ -19,7 +19,7 @@
   ],
   "vertcoreNode": "vertcore-node",
   "insightConfig": {
-    "apiPrefix": "api",
+    "apiPrefix": "insight-vtc-api",
     "routePrefix": ""
   },
   "scripts": {
