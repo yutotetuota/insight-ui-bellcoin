@@ -1,10 +1,10 @@
 # Insight UI
 
-A Vertcoin blockchain explorer web application service for [Vertcore Node](https://github.com/Cubey2019/vertcore-node) using the [Insight API](https://github.com/Cubey2019/insight-vtc-api).
+A Vertcoin blockchain explorer web application service for [Vertcore Node](https://github.com/vertcoin-project/vertcore-node) using the [Insight API](https://github.com/vertcoin-project/insight-vtc-api).
 
 ## Quick Start
 
-Please see the guide at [https://vertcore.io/guides/full-node](https://vertcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Vertcore](https://github.com/Cubey2019/vertcore).
+Please see the guide at [https://vertcore.io/guides/full-node](https://vertcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Vertcore](https://github.com/vertcoin-project/vertcore).
 
 ## Getting Started
 
@@ -88,11 +88,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/Cubey2019/insight-vtc-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/Cubey2019/insight-vtc-api).
+For more details about the [Insight API](https://github.com/vertcoin-project/insight-vtc-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/vertcoin-project/insight-vtc-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/Cubey2019/insight-vtc-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/vertcoin-project/insight-vtc-ui).
 
 
 ## License
