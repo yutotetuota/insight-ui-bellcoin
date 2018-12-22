@@ -1,22 +1,22 @@
 # Insight UI
 
-A Vertcoin blockchain explorer web application service for [Vertcore Node](https://github.com/vertcoin-project/vertcore-node) using the [Insight API](https://github.com/vertcoin-project/insight-vtc-api).
+A Bellcoin blockchain explorer web application service for [Bellcore Node](https://github.com/yutotetuota/bellcore-node) using the [Insight API](https://github.com/yutotetuota/insight-api-bellcoin).
 
 ## Quick Start
 
-Please see the guide at [https://vertcore.io/guides/full-node](https://vertcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Vertcore](https://github.com/vertcoin-project/vertcore).
+Please see the guide at [https://bellcore.io/guides/full-node](https://bellcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bellcore](https://github.com/yutotetuota/bellcore).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g vertcore-node
-vertcore-node create mynode
+npm install -g git://github.com/yutotetuota/bellcore-node.git
+bellcore-node create mynode
 cd mynode
-vertcore-node install insight-vtc-api
-vertcore-node install insight-vtc-ui
-vertcore-node start
+bellcore-node install git://github.com/yutotetuota/insight-api-bellcoin.git
+bellcore-node install git://github.com/yutotetuota/insight-ui-bellcoin.git
+bellcore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
@@ -41,7 +41,7 @@ By default, the `insightConfig` in `package.json` is:
 
 ```json
   "insightConfig": {
-    "apiPrefix": "insight-vtc-api",
+    "apiPrefix": "insight-api-bellcoin",
     "routePrefix": "insight"
   }
 ```
@@ -55,7 +55,7 @@ To change these routes, first make your changes to `package.json`, for example:
   }
 ```
 
-Then rebuild the `insight-vtc-ui` service:
+Then rebuild the `insight-ui-bellcoin` service:
 
 ```
 $ npm run build
@@ -88,11 +88,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/vertcoin-project/insight-vtc-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/vertcoin-project/insight-vtc-api).
+For more details about the [Insight API](https://github.com/yutotetuota/insight-api-bellcoin) configuration and end-points, go to [Insight API GitHub repository](https://github.com/yutotetuota/insight-api-bellcoin).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/vertcoin-project/insight-vtc-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/yutotetuota/insight-ui-bellcoin).
 
 
 ## License

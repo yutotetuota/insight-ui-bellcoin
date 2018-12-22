@@ -1,25 +1,25 @@
 {
-  "name": "insight-vtc-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the vertcoin network and build your own services with it.",
+  "name": "insight-ui-bellcoin",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bellcoin network and build your own services with it.",
   "version": "5.0.0-beta.44",
-  "repository": "git://github.com/vertcoin-project/insight-vtc-ui.git",
+  "repository": "git://github.com/yutoteuota/insight-ui-bellcoin.git",
   "bugs": {
-    "url": "https://github.com/vertcoin-project/insight-vtc-ui/issues"
+    "url": "https://github.com/yutotetuota/insight-ui-bellcoin/issues"
   },
-  "homepage": "https://github.com/vertcoin-project/insight-vtc-ui",
+  "homepage": "https://github.com/yutoteuota/insight-ui-bellcoin",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "vertcoin",
-    "vertcore",
-    "vtc",
+    "bellcoin",
+    "bellcore",
+    "bell",
     "front-end"
   ],
-  "vertcoreNode": "vertcore-node",
+  "bellcoreNode": "bellcore-node",
   "insightConfig": {
-    "apiPrefix": "insight-vtc-api",
+    "apiPrefix": "insight-ui-bellcoin",
     "routePrefix": ""
   },
   "scripts": {

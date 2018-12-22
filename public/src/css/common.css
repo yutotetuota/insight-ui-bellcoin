@@ -1,4 +1,4 @@
-﻿/* Sticky footer styles
+?/* Sticky footer styles
 -------------------------------------------------- */
 @charset "UTF-8";
 
@@ -613,7 +613,7 @@ margin-left: 0;
   float: left;
   height: 45px;
 }
-#powered a.vertcore {
+#powered a.bellcore {
   background-image: url('../img/logo.svg');
   background-size: 80px;
   width: 30%;

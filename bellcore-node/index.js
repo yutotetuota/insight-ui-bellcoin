@@ -8,11 +8,11 @@ var pkg = require('../package.json');
 
 var InsightUI = function(options) {
   BaseService.call(this, options);
-  this.apiPrefix = options.apiPrefix || 'insight-vtc-api';
+  this.apiPrefix = options.apiPrefix || 'insight-api-bellcoin';
   this.routePrefix = options.routePrefix || '';
 };
 
-InsightUI.dependencies = ['insight-vtc-api'];
+InsightUI.dependencies = ['insight-api-bellcoin'];
 
 inherits(InsightUI, BaseService);
 
