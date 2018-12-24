@@ -19,7 +19,7 @@
   ],
   "bellcoreNode": "bellcore-node",
   "insightConfig": {
-    "apiPrefix": "insight-ui-bellcoin",
+    "apiPrefix": "insight-api-bellcoin",
     "routePrefix": ""
   },
   "scripts": {
